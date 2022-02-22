@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { lazy, Suspense } from 'react';
+import { Suspense } from 'react';
 import { Layout } from 'components/Layout/Layout';
 import { HomePage }from 'pages/HomePage/HomePage';
 import { MoviesPage} from 'pages/MoviesPage/MoviesPage';
