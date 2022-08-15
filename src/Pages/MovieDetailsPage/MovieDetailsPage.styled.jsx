@@ -27,6 +27,7 @@ export const Wrapper = styled.div`
 `
 
 export const Image = styled.img`
+height: 500px;
 margin-top: 20px;
 max-width: 320px;
 height: 500px;
@@ -42,11 +43,12 @@ export const MovieTitle = styled.h1`
   font-size: 30px; 
 `;
 export const TextTitle = styled.h2`
-    font-size: 20px;
+    font-size: 25px;
 `
 export const Text = styled.p`
 font-size: 15px;
 margin-bottom: 15px; 
+font-size: 18px;
 `;
 
 export const Nav = styled.ul`
@@ -58,7 +60,7 @@ padding: 20px 40px;
 
 export const Link = styled(NavLink)`
     margin-right: 25px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     color: #110f0f;
     &:hover,

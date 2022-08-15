@@ -16,7 +16,7 @@ export const Nav = styled.nav`
 `;
 
 export const Link = styled(NavLink)`
-font-size: 30px;
+font-size: 35px;
 font-weight: 700;
 text-transform: uppercase;
 color: #474747;

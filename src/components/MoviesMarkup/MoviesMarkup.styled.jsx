@@ -25,7 +25,7 @@ export const Poster = styled.img`
 `;
 
 export const Title = styled.span`
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 500;
     color: #110101;
     &:hover {

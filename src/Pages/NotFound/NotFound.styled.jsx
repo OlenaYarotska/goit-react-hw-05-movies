@@ -6,6 +6,6 @@ export const Image = styled.img`
 
 export const Text = styled.p`
  text-align: center;
- font-size: 20px;
+ font-size: 25px;
  margin-top: 10px;
 `

@@ -7,30 +7,31 @@ export const Form = styled.form`
     margin-bottom: 30px;
 `;
 export const Input = styled.input`
-    width: 260px;
-    height: 40px;
+    width: 300px;
+    height: 60px;
     padding-left: 15px;
     border: 1px solid rgba(32, 33, 32, 0.2);
+    border-radius: 5px 0 0 5px;
     font-size: 18px;
     &:focus {
         outline-color: #5c43b9;
     }
    &::placeholder {
     color: #646464;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
  }
 `;
 
 export const Button = styled.button`
-border: none;
-border-radius: 0 4px;
-outline: none;
-    height: 45px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    height: 63px;
     padding: 10px 20px;
     background-color:  #5c43b9;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     &:hover,
     &:focus {

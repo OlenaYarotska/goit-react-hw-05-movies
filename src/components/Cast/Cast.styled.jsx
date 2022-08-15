@@ -18,10 +18,10 @@ object-fit: cover;
 `;
 
 export const Name = styled.p`
-font-size: 16px;
+font-size: 20px;
 font-weight: 500;
 `;
 
 export const Descr = styled.p`
-font-size: 14px;
+font-size: 18px;
 `;
