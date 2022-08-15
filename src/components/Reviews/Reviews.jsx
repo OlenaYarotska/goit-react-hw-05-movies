@@ -19,7 +19,7 @@ export const Reviews = () => {
                 setReviews(fetchedReviews);
             } catch (error) {
                 setError(error);
-                toast.error('Something went wrong')
+                toast.error('Something went wrong');
             } finally {
                 setLoading(false)
             }

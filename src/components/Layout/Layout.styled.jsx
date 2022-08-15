@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import { NavLink } from "react-router-dom";
 
 export const Container = styled.div`
-  width: 1200px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 50px;
-
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 export const Nav = styled.nav`
